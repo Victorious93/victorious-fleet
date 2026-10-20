@@ -1,0 +1,69 @@
+[submodule "apps/VictorSuite"]
+	path = apps/VictorSuite
+	url = https://github.com/Victorious93/VictorSuite.git
+[submodule "apps/VictorLaunch"]
+	path = apps/VictorLaunch
+	url = https://github.com/Victorious93/victorlaunch.git
+[submodule "apps/Victorious-Flash"]
+	path = apps/Victorious-Flash
+	url = https://github.com/Victorious93/victorious-flash.git
+[submodule "apps/Victorious-Browser"]
+	path = apps/Victorious-Browser
+	url = https://github.com/Victorious93/victorious-browser.git
+[submodule "apps/VictorLink64"]
+	path = apps/VictorLink64
+	url = https://github.com/Victorious93/VictorLink64.git
+[submodule "apps/VictoryPed"]
+	path = apps/VictoryPed
+	url = https://github.com/Victorious93/VictoryPed.git
+[submodule "apps/Victorious-Mesh"]
+	path = apps/Victorious-Mesh
+	url = https://github.com/Victorious93/victorious-mesh.git
+[submodule "apps/Pyra-Claw"]
+	path = apps/Pyra-Claw
+	url = https://github.com/Victorious93/pyra-claw.git
+[submodule "apps/File-Manager"]
+	path = apps/File-Manager
+	url = https://github.com/Victorious93/File-Manager.git
+[submodule "apps/Victorious-Keyboard"]
+	path = apps/Victorious-Keyboard
+	url = https://github.com/Victorious93/Victorious-Keyboard.git
+[submodule "apps/KYC-AuditLab"]
+	path = apps/KYC-AuditLab
+	url = https://github.com/Victorious93/KYC-AuditLab.git
+[submodule "apps/rootforge-os"]
+	path = apps/rootforge-os
+	url = https://github.com/Victorious93/rootforge-os.git
+[submodule "apps/Pentest-Swarm-AI"]
+	path = apps/Pentest-Swarm-AI
+	url = https://github.com/Victorious93/Pentest-Swarm-AI.git
+[submodule "apps/VictorSMS"]
+	path = apps/VictorSMS
+	url = https://github.com/Victorious93/victorsms.git
+[submodule "apps/BakerPi-Installer"]
+	path = apps/BakerPi-Installer
+	url = https://github.com/Victorious93/BakerPi-Installer.git
+[submodule "apps/fleet-manifest"]
+	path = apps/fleet-manifest
+	url = https://github.com/Victorious93/fleet-manifest.git
+[submodule "apps/EDL-Commander"]
+	path = apps/EDL-Commander
+	url = https://github.com/Victorious93/EDL-Commander.git
+[submodule "apps/VictorModem"]
+	path = apps/VictorModem
+	url = https://github.com/Victorious93/victormodem.git
+[submodule "apps/VictorSpoof"]
+	path = apps/VictorSpoof
+	url = https://github.com/Victorious93/victorspoof.git
+[submodule "apps/VictorOps-Zombies"]
+	path = apps/VictorOps-Zombies
+	url = https://github.com/Victorious93/victorops-zombies.git
+[submodule "apps/droidcommand-AI"]
+	path = apps/droidcommand-AI
+	url = https://github.com/Victorious93/droidcommand-AI.git
+[submodule "apps/HackerAI-Commander"]
+	path = apps/HackerAI-Commander
+	url = https://github.com/Victorious93/HackerAI-Commander.git
+[submodule "apps/MatchVictorious"]
+	path = apps/MatchVictorious
+	url = https://github.com/Victorious93/matchvictorious.git
