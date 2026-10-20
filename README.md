@@ -42,6 +42,6 @@ git submodule update --init --recursive
 | VictorModem | hardware, no pkg | HARDWARE | [victormodem](https://github.com/Victorious93/victormodem) 🔒 private | submodule |
 | VictorOps-Zombies | `com.victorious.zombie` | GAME | [victorops-zombies](https://github.com/Victorious93/victorops-zombies) 🔒 private | submodule |
 | Pyra-Claw | hardware hub | HARDWARE | [pyra-claw](https://github.com/Victorious93/pyra-claw) | submodule |
-| VictorCam | `com.victorious.cam` | EXTERNAL_NODE | repo TBD | stub |
+| VictorCam | `com.victorious.cam` | EXTERNAL_NODE | [victorcam](https://github.com/Victorious93/victorcam) | submodule |
 
 🔒 = private repo; submodule pointer records the URL but will not clone without access.
