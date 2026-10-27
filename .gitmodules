@@ -70,3 +70,12 @@
 [submodule "apps/VictorCam"]
 	path = apps/VictorCam
 	url = https://github.com/Victorious93/victorcam.git
+[submodule "apps/VictorTrade"]
+	path = apps/VictorTrade
+	url = https://github.com/Victorious93/victortrade.git
+[submodule "apps/VictorMango"]
+	path = apps/VictorMango
+	url = https://github.com/Victorious93/victormango.git
+[submodule "apps/VictorTaskbar"]
+	path = apps/VictorTaskbar
+	url = https://github.com/Victorious93/victortaskbar.git
