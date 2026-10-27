@@ -29,7 +29,7 @@ This repository is the **index** for Don Victor’s Victorious fleet. It does no
 | **Profile roster** | [Victorious93/Victorious93](https://github.com/Victorious93/Victorious93) |
 | **Site** | [victorious-framework.pages.dev](https://victorious-framework.pages.dev) |
 
-> Status labels below are taken from [fleet-manifest/ROADMAP.md](https://github.com/Victorious93/fleet-manifest/blob/main/ROADMAP.md) (as of Oct 20, 2026). Package IDs prefer **build.gradle(.kts) `applicationId`** when present.
+> Status labels below are taken from [fleet-manifest/ROADMAP.md](https://github.com/Victorious93/fleet-manifest/blob/main/ROADMAP.md) (synced Oct 27, 2026). Package IDs prefer **build.gradle(.kts) `applicationId`** when present.
 
 ## Apps
 
@@ -40,12 +40,12 @@ This repository is the **index** for Don Victor’s Victorious fleet. It does no
 | <img src="assets/logos/pentest-swarm-logo.png" width="40" alt="" /> | [Pentest-Swarm-AI](https://github.com/Victorious93/Pentest-Swarm-AI) | `ai.pentestswarm.companion` | CI green [Likely] | submodule |
 | <img src="assets/logos/edl-commander-logo.png" width="40" alt="" /> | [EDL-Commander](https://github.com/Victorious93/EDL-Commander) | `ai.edlcommander.companion` | scaffold / CI | submodule |
 | <img src="assets/logos/rootforge-logo.png" width="40" alt="" /> | [rootforge-os](https://github.com/Victorious93/rootforge-os) | `ai.rootforge.os` | CI green | submodule |
-| <img src="assets/logos/file-manager-logo.png" width="40" alt="" /> | [File-Manager](https://github.com/Victorious93/File-Manager) | `ai.victorious.victorfiles` † | blocked (CI stack) | submodule |
+| <img src="assets/logos/file-manager-logo.png" width="40" alt="" /> | [File-Manager](https://github.com/Victorious93/File-Manager) | `ai.victorious.filemanager` | CI green (rename landed) | submodule |
 | <img src="assets/logos/victorious-keyboard-logo.png" width="40" alt="" /> | [Victorious-Keyboard](https://github.com/Victorious93/Victorious-Keyboard) | `com.victorious.keyboard` | CI green / merging | submodule |
 | <img src="assets/logos/victorious-flash-logo.png" width="40" alt="" /> | [victorious-flash](https://github.com/Victorious93/victorious-flash) | `com.victorious.flash.android` | CI green (desktop) | submodule |
 | <img src="assets/logos/victorious-mesh-logo.png" width="40" alt="" /> | [victorious-mesh](https://github.com/Victorious93/victorious-mesh) | `com.victorious.mesh` | CI green | submodule |
 | <img src="assets/logos/victorious-browser-logo.png" width="40" alt="" /> | [victorious-browser](https://github.com/Victorious93/victorious-browser) | `com.victorious.browser` | CI green | submodule |
-| <img src="assets/logos/victorsms-logo.png" width="40" alt="" /> | [victorsms](https://github.com/Victorious93/victorsms) | `com.victorious.sms` | scaffold / blocked | submodule |
+| <img src="assets/logos/victorsms-logo.png" width="40" alt="" /> | [victorsms](https://github.com/Victorious93/victorsms) | `com.victorious.sms` | CI green / feature-rich (not device-tested) | submodule |
 | <img src="assets/logos/victorlaunch-logo.png" width="40" alt="" /> | [victorlaunch](https://github.com/Victorious93/victorlaunch) | `com.victorious.launch` | CI green | submodule |
 | <img src="assets/logos/victorspoof-logo.png" width="40" alt="" /> | [victorspoof](https://github.com/Victorious93/victorspoof) | `com.victorious.spoof` | scaffold | submodule |
 | <img src="assets/logos/victorlink64-logo.png" width="40" alt="" /> | [VictorLink64](https://github.com/Victorious93/VictorLink64) | `org.victoriousframework.victorlink64` | early beta / public | submodule |
@@ -56,12 +56,14 @@ This repository is the **index** for Don Victor’s Victorious fleet. It does no
 | <img src="assets/logos/matchvictorious-logo.png" width="40" alt="" /> | [matchvictorious](https://github.com/Victorious93/matchvictorious) | `com.victorious.match` | scaffold / planning | submodule |
 | <img src="assets/logos/victorpedigree-logo.png" width="40" alt="" /> | VictoryPed 🔒 | `com.victorious.victoryped` | scaffold / planning | submodule |
 | <img src="assets/logos/victormodem-logo.png" width="40" alt="" /> | victormodem 🔒 | hardware (no pkg yet) | planning / scaffold | submodule |
-| <img src="assets/logos/victorops-zombies-logo.jpg" width="40" alt="" /> | victorops-zombies 🔒 | `com.victorious.zombie` | empty / private | submodule |
+| <img src="assets/logos/victorops-zombies-logo.jpg" width="40" alt="" /> | [victorops-zombies](https://github.com/Victorious93/victorops-zombies) | `com.victorious.zombie` | scaffold (playable slice; now **public**) | submodule |
 | <img src="assets/logos/pyraclaw-logo.png" width="40" alt="" /> | [pyra-claw](https://github.com/Victorious93/pyra-claw) | `com.victorious.pyraclaw` *(companion)* | planning / scaffold | submodule |
-| <img src="assets/logos/victorcam-logo.jpg" width="40" alt="" /> | [victorcam](https://github.com/Victorious93/victorcam) | `com.victorious.cam` | empty / public scaffold | stub |
+| <img src="assets/logos/victorcam-logo.jpg" width="40" alt="" /> | [victorcam](https://github.com/Victorious93/victorcam) | `com.victorious.cam` | scaffold (OBS-style virtual cam) | submodule on main; stub on this docs branch |
+| | [victormango](https://github.com/Victorious93/victormango) | `com.victorious.mango` | scaffold (GL.iNet Mango companion; RPC auth real, features stubbed) | **not yet a submodule** — add next |
+| | [victortaskbar](https://github.com/Victorious93/victortaskbar) | `com.victorious.taskbar` *(planned)* | planning (README-only initial commit) | **not yet a submodule** — add when app scaffolds |
 
-† **File-Manager:** code `applicationId` is `ai.victorious.victorfiles`; ROADMAP target rename is `ai.victorious.filemanager`.  
-🔒 = private repo (submodule URL recorded; clone needs access).
+🔒 = private repo (submodule URL recorded; clone needs access). VictoryPed and victormodem remain private; victorops-zombies is now public.
+VictorMango and VictorTaskbar exist as standalone repos (Oct 27) but are not yet wired as submodules here — docs-only note until Don adds them.
 
 ## Structure
 
@@ -73,7 +75,8 @@ victorious-fleet/
 └── apps/
     ├── droidcommand-AI/   # submodule → Victorious93/droidcommand-AI
     ├── …
-    └── VictorCam/         # stub until source lands
+    ├── VictorCam/         # submodule on main (victorcam)
+    ├── …                  # VictorMango / VictorTaskbar not yet added
 ```
 
 `.gitmodules` is the source of truth for submodule paths and URLs.
