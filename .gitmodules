@@ -67,3 +67,6 @@
 [submodule "apps/MatchVictorious"]
 	path = apps/MatchVictorious
 	url = https://github.com/Victorious93/matchvictorious.git
+[submodule "apps/VictorCam"]
+	path = apps/VictorCam
+	url = https://github.com/Victorious93/victorcam.git

@@ -58,7 +58,7 @@ This repository is the **index** for Don Victor’s Victorious fleet. It does no
 | <img src="assets/logos/victormodem-logo.png" width="40" alt="" /> | victormodem 🔒 | hardware (no pkg yet) | planning / scaffold | submodule |
 | <img src="assets/logos/victorops-zombies-logo.jpg" width="40" alt="" /> | [victorops-zombies](https://github.com/Victorious93/victorops-zombies) | `com.victorious.zombie` | scaffold (playable slice; now **public**) | submodule |
 | <img src="assets/logos/pyraclaw-logo.png" width="40" alt="" /> | [pyra-claw](https://github.com/Victorious93/pyra-claw) | `com.victorious.pyraclaw` *(companion)* | planning / scaffold | submodule |
-| <img src="assets/logos/victorcam-logo.jpg" width="40" alt="" /> | [victorcam](https://github.com/Victorious93/victorcam) | `com.victorious.cam` | scaffold (OBS-style virtual cam) | submodule on main; stub on this docs branch |
+| <img src="assets/logos/victorcam-logo.jpg" width="40" alt="" /> | [victorcam](https://github.com/Victorious93/victorcam) | `com.victorious.cam` | scaffold (OBS-style virtual cam) | submodule |
 | | [victormango](https://github.com/Victorious93/victormango) | `com.victorious.mango` | scaffold (GL.iNet Mango companion; RPC auth real, features stubbed) | **not yet a submodule** — add next |
 | | [victortaskbar](https://github.com/Victorious93/victortaskbar) | `com.victorious.taskbar` *(planned)* | planning (README-only initial commit) | **not yet a submodule** — add when app scaffolds |
 
