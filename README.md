@@ -59,11 +59,12 @@ This repository is the **index** for Don Victor’s Victorious fleet. It does no
 | <img src="assets/logos/victorops-zombies-logo.jpg" width="40" alt="" /> | [victorops-zombies](https://github.com/Victorious93/victorops-zombies) | `com.victorious.zombie` | scaffold (playable slice; now **public**) | submodule |
 | <img src="assets/logos/pyraclaw-logo.png" width="40" alt="" /> | [pyra-claw](https://github.com/Victorious93/pyra-claw) | `com.victorious.pyraclaw` *(companion)* | planning / scaffold | submodule |
 | <img src="assets/logos/victorcam-logo.jpg" width="40" alt="" /> | [victorcam](https://github.com/Victorious93/victorcam) | `com.victorious.cam` | scaffold (OBS-style virtual cam) | submodule |
-| | [victormango](https://github.com/Victorious93/victormango) | `com.victorious.mango` | scaffold (GL.iNet Mango companion; RPC auth real, features stubbed) | **not yet a submodule** — add next |
-| | [victortaskbar](https://github.com/Victorious93/victortaskbar) | `com.victorious.taskbar` *(planned)* | planning (README-only initial commit) | **not yet a submodule** — add when app scaffolds |
+| | [victormango](https://github.com/Victorious93/victormango) | `com.victorious.mango` | scaffold (GL.iNet Mango companion; RPC auth real, features stubbed) | submodule |
+| | [victortaskbar](https://github.com/Victorious93/victortaskbar) | `com.victorious.taskbar` | MVP scaffold with official logo (desktop-style taskbar) | submodule |
+| | victortrade 🔒 | `com.victorious.trade` | scaffold / planning (initial commit) — crypto-bots hub: exchange APIs + self-hosted + on-chain | submodule |
 
-🔒 = private repo (submodule URL recorded; clone needs access). VictoryPed and victormodem remain private; victorops-zombies is now public.
-VictorMango and VictorTaskbar exist as standalone repos (Oct 27) but are not yet wired as submodules here — docs-only note until Don adds them.
+🔒 = private repo (submodule URL recorded; clone needs access). VictoryPed, victormodem, and victortrade are private; victorops-zombies is now public.
+VictorTrade (private 🔒), VictorMango, and VictorTaskbar were added as submodules on Oct 27.
 
 ## Structure
 
@@ -76,7 +77,10 @@ victorious-fleet/
     ├── droidcommand-AI/   # submodule → Victorious93/droidcommand-AI
     ├── …
     ├── VictorCam/         # submodule on main (victorcam)
-    ├── …                  # VictorMango / VictorTaskbar not yet added
+    ├── VictorMango/       # submodule (victormango)
+    ├── VictorTaskbar/     # submodule (victortaskbar)
+    ├── VictorTrade/       # submodule (victortrade, private)
+    ├── …
 ```
 
 `.gitmodules` is the source of truth for submodule paths and URLs.
